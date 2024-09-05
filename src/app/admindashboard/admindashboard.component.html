@@ -1,0 +1,81 @@
+<nav class="navbar navbar-light bg-secondary">
+    <div class="container-fluid">
+        <h2 style="color: rgb(36, 82, 196);"> Flights DashBoard</h2>
+        <div class="d-flex">
+            <button (click)="clickAddFlight()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success">Add Flight</button>
+            
+        </div>
+    </div>
+</nav>
+<table class="table mt-3">
+    <thead >
+        <tr >
+            <th scope="col">id</th>
+            <th scope="col">Place</th>
+            <th scope="col">Flight1</th>
+            <th scope="col">Flight2</th>
+            <th scope="col">Flight3</th>
+            <th scope="col">Flight4</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of cityData">
+            <td>{{row.id}}</td>
+            <td>{{row.CityName}}</td>
+            <td>{{row.Flight1}}</td>
+            <td>{{row.Flight2}}</td>
+            <td>{{row.Flight3}}</td>
+            <td>{{row.Flight4}}</td>
+            <td><button (click)="onEdit(row)" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info">Edit</button>
+                <button (click)="deleteFlight(row)" class="btn btn-danger mx-3">delete</button></td>
+        </tr>
+    </tbody>
+</table>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">City Flights</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup]="formValue">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Place</label>
+                  <input type="text" formControlName="CityName" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Flight1</label>
+                    <input type="text" formControlName="Flight1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Flight2</label>
+                    <input type="text" formControlName="Flight2" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <span class="text-danger" *ngIf="formValue.controls['Flight2'].touched && formValue.hasError('required')">*required</span>
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Flight3</label>
+                    <input type="text" formControlName="Flight3" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <span class="text-danger" *ngIf="formValue.controls['Flight3'].touched && formValue.hasError('required')">*required</span>
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Flight4</label>
+                    <input type="text" formControlName="Flight4" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <span class="text-danger" *ngIf="formValue.controls['Flight4'].touched && formValue.hasError('required')">*required</span>
+                  </div>
+               
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button"  (click)="postFlight()" [disabled]="!formValue.valid" class="btn btn-primary">Add</button>
+          <button type="button" *ngIf="showUpdate" (click)="UpadateFlight()" class="btn btn-success">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>

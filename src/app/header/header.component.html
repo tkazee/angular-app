@@ -1,0 +1,40 @@
+
+<header>
+    <h2>Airlines Booking System</h2>
+
+<nav>
+   
+  <a [routerLink]="'/home'" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact:true}">Home </a>
+  <a routerLink="/about" routerLinkActive=" active" [routerLinkActiveOptions]="{exact:true}">About</a>
+  <a routerLink="/login" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Login</a>
+  <a routerLink="/signup" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Signup</a>
+  
+
+  <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      User Dashboard
+    </button>
+    <ul class="dropdown-menu">
+      
+      <li><a class="dropdown-item" routerLink="/login" routerLinkActive="active">Flight Booking</a></li>
+      <li><a class="dropdown-item" routerLink="/ancillary-products">Food Booking</a></li>
+    </ul>
+  </div>
+ 
+  
+  <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Admin Dashboard
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item"routerLink="/admin-login" >Add Flight</a></li>
+      <li><a class="dropdown-item" routerLink="/ancillary-login">Add Food</a></li>
+      <li><a class="dropdown-item" routerLink="/manager">Booking Flight History</a></li>
+      <li><a class="dropdown-item" routerLink="/ancillary-history-admin">Booking Food History</a></li>
+    </ul>
+  </div>
+  
+  <a routerLink="/contact" routerLinkActive="active">Help Center</a>
+</nav>
+
+</header>

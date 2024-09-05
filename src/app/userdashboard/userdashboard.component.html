@@ -1,0 +1,50 @@
+
+<div class="container-fluid mb-3" align="center">
+    <h4 style="color: rgb(203, 162, 66);">Select The Place</h4>
+</div>
+<select class="form-select" multiple aria-label="multiple select example"[(ngModel)]="selected">
+    
+    <option *ngFor="let x of cityData">{{x.CityName}}</option>
+  </select>
+  <br/>
+  <div class="container-fluid mb-3" align="center">
+    <h4 style="color: rgb(130, 66, 203);">Book Flight</h4>
+</div>
+
+
+  <table class="table mt-2">
+    <thead >
+        <tr >
+            <th scope="col">id</th>
+            <th scope="col">Place</th>
+            <th scope="col">Flight1</th>
+            <th scope="col">Flight2</th>
+            <th scope="col">Flight3</th>
+            <th scope="col">Flight4</th>
+            
+        
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of cityData" >
+            <ng-container *ngIf="row.CityName==selected">
+            <td>{{row.id}}
+            </td>
+            <td>{{row.CityName}}</td>
+            <td>{{row.Flight1}}
+                <button (click)="bookFlight(row.Flight1,row.CityName)" type="button" class="btn btn-primary btn-sm">Book</button>
+            </td>
+            <td>{{row.Flight2}}
+                <button (click)="bookFlight(row.Flight2,row.CityName)" type="button" class="btn btn-primary btn-sm">Book</button>
+            </td>
+            <td>{{row.Flight3}}
+                <button (click)="bookFlight(row.Flight3,row.CityName)" type="button" class="btn btn-primary btn-sm">Book</button>
+            </td>
+            <td>{{row.Flight4}}
+                <button (click)="bookFlight(row.Flight4,row.CityName)" type="button" class="btn btn-primary btn-sm">Book</button>
+            </td>
+            </ng-container>
+        </tr>
+    </tbody>
+</table>
+

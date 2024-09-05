@@ -1,0 +1,601 @@
+{
+  "posts": [
+    {
+      "CityName": "Delhii",
+      "Flight1": "Go Air | Price:5k",
+      "Flight2": "Indigo |Price:5k",
+      "Flight3": "Air India |Price:6k",
+      "Flight4": "Emarites |Price:7k",
+      "id": 1
+    },
+    {
+      "CityName": "Banglore",
+      "Flight1": "Go Air| Price:6k",
+      "Flight2": "Air India | Price: 7k",
+      "Flight3": "Indica |Price:6k",
+      "Flight4": "Emarites |Price:5k",
+      "id": 2
+    },
+    {
+      "CityName": "Hyderabd",
+      "Flight1": "Air India | Price:6k",
+      "Flight2": "Indigo |Price:6k",
+      "Flight3": "Go Air |Price:5k",
+      "Flight4": "Emarites |Price:6k",
+      "id": 3
+    },
+    {
+      "CityName": "Coimbatore",
+      "Flight1": "Go Air|Price:5k",
+      "Flight2": "Air India|Price:6k",
+      "Flight3": "Emarites|Price:7k",
+      "Flight4": "Indigo|8k",
+      "id": 4
+    },
+    {
+      "CityName": "Chennai",
+      "Flight1": "Go Air |Price:5k",
+      "Flight2": "Indigo |Price:6k",
+      "Flight3": "Air India|Price:7k",
+      "Flight4": "Emarites",
+      "id": 5
+    },
+    {
+      "CityName": "Pune",
+      "Flight1": "Go Air |Price:6k",
+      "Flight2": "Air India |Price:6k",
+      "Flight3": "Emarites|Price:5k",
+      "Flight4": "Indigo|Price:6k",
+      "id": 6
+    },
+    {
+      "CityName": "Goa",
+      "Flight1": "Air India|Price:10k",
+      "Flight2": "Indigo|Price:8k",
+      "Flight3": "Go Air|Price:9k",
+      "Flight4": "Emarites|Price:9k",
+      "id": 7
+    },
+    {
+      "CityName": "Kolkata",
+      "Flight1": "Air India|11k",
+      "Flight2": "Go Air|11k",
+      "Flight3": "Emarites|12k",
+      "Flight4": "Indigo|10k",
+      "id": 8
+    }
+  ],
+  "posts1": [
+    {
+      "CityName": "Hyderabad",
+      "Pizza": "Chicken ",
+      "Rolls": "Rolls",
+      "Cakes": "Chocolate",
+      "Shakes": "Pineapple",
+      "id": 8
+    },
+    {
+      "CityName": "Mumbai",
+      "Pizza": "Paneer Pizza",
+      "Rolls": "Chicken Rolls",
+      "Cakes": "Chocolate",
+      "Shakes": "Oreo ",
+      "id": 9
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Sita",
+      "email": "sita@gmail.com",
+      "password": "abc@06",
+      "mobile": "1234567890",
+      "id": 1
+    },
+    {
+      "fullname": "Padma",
+      "email": "padam@gmail.com",
+      "password": "abc@06",
+      "mobile": "9676105530",
+      "id": 2
+    },
+    {
+      "fullname": "Aravind",
+      "email": "aravind@gmail.com",
+      "password": "abc@06",
+      "mobile": "9177948151",
+      "id": 3
+    },
+    {
+      "fullname": "Ram",
+      "email": "ram@gmail.com",
+      "password": "abc12",
+      "mobile": "923045613",
+      "id": 4
+    },
+    {
+      "fullname": "Akhila",
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "mobile": "01234567890",
+      "id": 5
+    },
+    {
+      "fullname": "Akhila Varkolu",
+      "email": "akhilavarkolu2000@gmail.com",
+      "password": "Akhila@06",
+      "mobile": "8187050479",
+      "id": 6
+    },
+    {
+      "fullname": "Srivalli V",
+      "email": "srivalli@gmail.com",
+      "password": "Srivalli@06",
+      "mobile": "8187050479",
+      "id": 7
+    },
+    {
+      "fullname": "Aravind",
+      "email": "aravind06@gmail.com",
+      "password": "Aravind@06",
+      "mobile": "7095600816",
+      "id": 8
+    },
+    {
+      "fullname": "Akhila V",
+      "email": "akhilavarkolu@gmail.com",
+      "password": "Akhila@06",
+      "mobile": "1234567890",
+      "id": 9
+    },
+    {
+      "fullname": "Sree",
+      "email": "srivalli@gmail.com",
+      "password": "Sree@2000",
+      "mobile": "1111111111",
+      "id": 10
+    },
+    {
+      "fullname": "Yamini",
+      "email": "yamini@gmail.com",
+      "password": "Yamini@06",
+      "mobile": "7702921686",
+      "id": 11
+    },
+    {
+      "fullname": "Yamini",
+      "email": "yamini@gmail.com",
+      "password": "Yamini@06",
+      "mobile": "123456789",
+      "id": 12
+    },
+    {
+      "fullname": "Yamini Kommineni",
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "mobile": "7702921686",
+      "id": 13
+    },
+    {
+      "fullname": "lucifer",
+      "email": "123@gmail.com",
+      "password": "123@44321",
+      "mobile": "12345678",
+      "id": 14
+    },
+    {
+      "fullname": "Nagababu",
+      "email": "nagababuvnb@gmail.com",
+      "password": "8919588165",
+      "mobile": "8919588165",
+      "id": 15
+    }
+  ],
+  "BookedFood": [
+    {
+      "CustomerName": "Akhila V",
+      "email": "akhilavarkolu@gmail.com",
+      "phone": "1234567890",
+      "CityName": "Hyderabad",
+      "HotelName": "Chicken Pizza",
+      "id": 1
+    },
+    {
+      "CustomerName": "Sree",
+      "email": "srivalli@gmail.com",
+      "phone": "1111111111",
+      "CityName": "Hyderabad",
+      "HotelName": "Chicken Rolls",
+      "id": 2
+    },
+    {
+      "CustomerName": "Akhila",
+      "email": "akhila@gmail.com",
+      "phone": "01234567890",
+      "CityName": "Hyderabad",
+      "HotelName": "Chicken Rolls",
+      "id": 3
+    },
+    {
+      "CustomerName": "Akhila",
+      "email": "akhila@gmail.com",
+      "phone": "01234567890",
+      "CityName": "Hyderabad",
+      "HotelName": "CAKES",
+      "id": 4
+    },
+    {
+      "CustomerName": "Nagababu",
+      "email": "nagababuvnb@gmail.com",
+      "phone": "8919588165",
+      "CityName": "Hyderabad",
+      "HotelName": "Chicken ",
+      "id": 5
+    }
+  ],
+  "BookedFlights": [
+    {
+      "CustomerName": "Akhila",
+      "email": "akhila@gmail.com",
+      "phone": "01234567890",
+      "CityName": "Mumbai",
+      "HotelName": "Air Asia India",
+      "id": 1
+    },
+    {
+      "CustomerName": "Akhila V",
+      "email": "akhilavarkolu@gmail.com",
+      "phone": "1234567890",
+      "CityName": "Hyderabd",
+      "HotelName": "GoAir  | Price:7k",
+      "id": 7
+    },
+    {
+      "CustomerName": "Sree",
+      "email": "srivalli@gmail.com",
+      "phone": "1111111111",
+      "CityName": "Hyderabd",
+      "HotelName": "Air India | Price:6k",
+      "id": 8
+    },
+    {
+      "CustomerName": "Akhila",
+      "email": "akhila@gmail.com",
+      "phone": "01234567890",
+      "CityName": "Hyderabd",
+      "HotelName": "Indigo |Price:6k",
+      "id": 9
+    },
+    {
+      "CustomerName": "Akhila",
+      "email": "akhila@gmail.com",
+      "phone": "01234567890",
+      "CityName": "Banglore",
+      "HotelName": "Air India | Price: 7k",
+      "id": 10
+    },
+    {
+      "CustomerName": "Yamini",
+      "email": "yamini@gmail.com",
+      "phone": "7702921686",
+      "CityName": "Coimbatore",
+      "HotelName": "Emarites|Price:7k",
+      "id": 11
+    },
+    {
+      "CustomerName": "Akhila",
+      "email": "akhila@gmail.com",
+      "phone": "01234567890",
+      "CityName": "Banglore",
+      "HotelName": "Indica |Price:6k",
+      "id": 12
+    },
+    {
+      "CustomerName": "Yamini Kommineni",
+      "email": "yamini06@gmail.com",
+      "phone": "7702921686",
+      "CityName": "Delhi",
+      "HotelName": "Emarites |Price:7k",
+      "id": 13
+    },
+    {
+      "CustomerName": "Yamini Kommineni",
+      "email": "yamini06@gmail.com",
+      "phone": "7702921686",
+      "CityName": "Delhi",
+      "HotelName": "Indigo |Price:5k",
+      "id": 14
+    },
+    {
+      "CustomerName": "Yamini Kommineni",
+      "email": "yamini06@gmail.com",
+      "phone": "7702921686",
+      "CityName": "Delhi",
+      "HotelName": "Indigo |Price:5k",
+      "id": 15
+    },
+    {
+      "CustomerName": "Akhila Varkolu",
+      "email": "akhilavarkolu2000@gmail.com",
+      "phone": "8187050479",
+      "CityName": "Delhi",
+      "HotelName": "Go Air | Price:5k",
+      "id": 16
+    },
+    {
+      "CustomerName": "Akhila Varkolu",
+      "email": "akhilavarkolu2000@gmail.com",
+      "phone": "8187050479",
+      "CityName": "Banglore",
+      "HotelName": "Go Air| Price:6k",
+      "id": 17
+    },
+    {
+      "CustomerName": "Sita",
+      "email": "sita@gmail.com",
+      "phone": "1234567890",
+      "CityName": "Delhi",
+      "HotelName": "Go Air | Price:5k",
+      "id": 18
+    },
+    {
+      "CustomerName": "Nagababu",
+      "email": "nagababuvnb@gmail.com",
+      "phone": "8919588165",
+      "CityName": "Hyderabd",
+      "HotelName": "Air India | Price:6k",
+      "id": 19
+    }
+  ],
+  "login": [
+    {
+      "email": "sita@gmail.com",
+      "password": "abc@06",
+      "id": 6
+    },
+    {
+      "email": "aravind@gmail.com",
+      "password": "abc@06",
+      "id": 7
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 8
+    },
+    {
+      "email": "akhilavarkolu2000@gmail.com",
+      "password": "Akhila@06",
+      "id": 9
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 10
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 11
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 12
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 13
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 14
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 15
+    },
+    {
+      "email": "srivalli@gmail.com",
+      "password": "Srivalli@06",
+      "id": 16
+    },
+    {
+      "email": "srivalli@gmail.com",
+      "password": "Srivalli@06",
+      "id": 17
+    },
+    {
+      "email": "aravind06@gmail.com",
+      "password": "Aravind@06",
+      "id": 18
+    },
+    {
+      "email": "akhilavarkolu@gmail.com",
+      "password": "Akhila@06",
+      "id": 19
+    },
+    {
+      "email": "akhilavarkolu@gmail.com",
+      "password": "Akhila@06",
+      "id": 20
+    },
+    {
+      "email": "akhilavarkolu@gmail.com",
+      "password": "Akhila@06",
+      "id": 21
+    },
+    {
+      "email": "akhilavarkolu@gmail.com",
+      "password": "Akhila@06",
+      "id": 22
+    },
+    {
+      "email": "srivalli@gmail.com",
+      "password": "Sree@2000",
+      "id": 23
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 24
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 25
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 26
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 27
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 28
+    },
+    {
+      "email": "yamini@gmail.com",
+      "password": "Yamini@06",
+      "id": 29
+    },
+    {
+      "email": "yamini@gmail.com",
+      "password": "Yamini@06",
+      "id": 30
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 31
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 32
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 33
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 34
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 35
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 36
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 37
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 38
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 39
+    },
+    {
+      "email": "yamini@gmail.com",
+      "password": "Yamini@06",
+      "id": 40
+    },
+    {
+      "email": "yamini@gmail.com",
+      "password": "Yamini@06",
+      "id": 41
+    },
+    {
+      "email": "akhila@gmail.com",
+      "password": "Abc@06",
+      "id": 42
+    },
+    {
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "id": 43
+    },
+    {
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "id": 44
+    },
+    {
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "id": 45
+    },
+    {
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "id": 46
+    },
+    {
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "id": 47
+    },
+    {
+      "email": "yamini@gmail.com",
+      "password": "Yamini@06",
+      "id": 48
+    },
+    {
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "id": 49
+    },
+    {
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "id": 50
+    },
+    {
+      "email": "yamini06@gmail.com",
+      "password": "Yamini@06",
+      "id": 51
+    },
+    {
+      "email": "akhilavarkolu2000@gmail.com",
+      "password": "Akhila@06",
+      "id": 52
+    },
+    {
+      "email": "sita@gmail.com",
+      "password": "abc@06",
+      "id": 53
+    },
+    {
+      "email": "aravind@gmail.com",
+      "password": "abc@06",
+      "id": 54
+    },
+    {
+      "email": "nagababuvnb@gmail.com",
+      "password": "8919588165",
+      "id": 55
+    }
+  ]
+}
